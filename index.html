@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="contner">
+        <section class="Rating-Contner" id="Rating-Contner">
+            <div class="img">
+                <img src="assets/images/icon-star.svg" alt="">
+            </div>
+            <p class="header">How did we do?</p>
+            <p class="asking"> Please let us know how we did with your support request. All feedback is appreciated
+                to help us improve our offering!</p>
+            <div class="numbers">
+                <button class="number" id="number" onclick="selectRating(1, this)" this>1</button>
+                <button class="number" id="number" onclick="selectRating(2, this)" this>2</button>
+                <button class="number" id="number" onclick="selectRating(3, this)" this>3</button>
+                <button class="number" id="number" onclick="selectRating(4, this)" this>4</button>
+                <button class="number" id="number" onclick="selectRating(5, this)" this>5</button>
+            </div>
+            <button id="btn">Submit</button>
+        </section>
+        <section class="after" id="after">
+            <img src="assets/images/illustration-thank-you.svg" alt="">
+            <p class="msg"> You selected <span id="raredisplay"></span> out of 5</p>
+            <p class="tak">Thank you!</p>
+            <p class="disc"> We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!</p>
+        </section>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>

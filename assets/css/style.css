@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.contner {
+    width: 300px;
+    padding: 20px;
+    justify-content: center;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: .3em;
+    border-radius: 10px;
+}
+
+.contner .Rating-Contner {
+    display: block;
+}
+
+.contner .Rating-Contner .img {
+    background-color: hsla(217, 12%, 63%, 0.144);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.contner .Rating-Contner .header {
+    margin: 10px 0 10px 0px;
+    font-size: 20px;
+    color: hsl(0, 100%, 100%);
+}
+
+.contner .Rating-Contner .asking {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+    margin: 10px 0 10px 0px;
+}
+
+.contner .Rating-Contner .numbers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0 10px 0px;
+
+}
+
+.contner .Rating-Contner .numbers .number {
+    background-color: hsla(217, 12%, 63%, 0.144);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    color: hsl(217, 12%, 63%);
+    cursor: pointer;
+}
+
+.index {
+    background-color: hsl(0, 100%, 100%);
+}
+
+.contner .Rating-Contner .numbers .number:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+.contner .Rating-Contner button {
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(25, 97%, 53%);
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    margin: 10px 0 10px 0px;
+}
+
+.contner .Rating-Contner button:hover {
+    color: black;
+    background-color: hsl(0, 100%, 100%);
+    cursor: pointer;
+}
+
+.contner .after {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contner .after img {
+    width: 120px;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+
+.contner .msg {
+    margin: 10px;
+    font-size: 15px;
+    background-color: hsla(217, 12%, 63%, 0.055);
+    padding: 5px;
+    border-radius: .3em;
+    width: 160px;
+    color: hsl(25, 97%, 53%);
+}
+
+.contner .tak {
+    color: hsl(0, 100%, 100%);
+    margin: 10px;
+    font-size: 18px;
+}
+
+.contner .disc {
+    color: hsl(217, 12%, 63%);
+    margin: 10px;
+    text-align: center;
+}
